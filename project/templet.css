@@ -1,0 +1,156 @@
+body{
+    background-color:black;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 26px;
+}
+nav h1{
+    font-size: 40px;
+    color: rgba(250,10,10,0.801);;
+    border-bottom: 5px solid rgba(250,10,10,0.801);
+    border-radius: 40px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+    font-size: 170%;
+}
+.btn button{
+    width: 100px;
+    height: 36px;
+    border: 3px solid rgba(250,10,10,0.801);
+    background-color:black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+.main-div .head{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.head button{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(250,10,10,0.801);
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+.head button{
+    background-color: black;
+    border: 3px solid rgba(250,10,10,0.801);
+    cursor: pointer;
+}
+.img img{
+    margin-right:250px;
+    width: 300px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex-container{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item{
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    background-color: lightblue;
+    border: 5px solid yellowgreen;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.food-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.food-item{
+    height: 220px;
+    margin: 20px;
+    width: 180px;
+    border: 5px solid red;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.food-item img{
+    height: 180px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.food-item h4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+.food-item h6{
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+
+/* **************** */
+
+.header-section{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    height: 70px;
+    background-color: skyblue;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+}
+.logo h4{
+    text-align: center;
+}
+.nav{
+    width: 50%;
+}
+
+.social-icon{    padding-left: 10px;
+                 color: blueviolet;
+}
+div.man{
+    color: brown;
+    align-items: center;
+    font-size: 250%;
+}
+div.txt{
+    color: white;
+    font-size: 20px;
+}
